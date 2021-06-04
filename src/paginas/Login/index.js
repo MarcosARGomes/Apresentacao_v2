@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { Link } from 'react-router-dom';
 
 import Topo from '../../componentes/Topo';
 import Rodape from '../../componentes/Rodape';
@@ -55,11 +56,11 @@ const Login = () => {
                         </div>
                             */}
                     </div>
-                    
-                    <button type="submit" id="entrar">
-                        Entrar
-                    </button>
-                    
+                   <Link to='/CheckIn'>
+                        <button type="submit" id="entrar">
+                            Entrar
+                        </button>
+                    </Link> 
                     <button type="submit" id="Facebook">
                         Entrar com Facebook
                     </button>
