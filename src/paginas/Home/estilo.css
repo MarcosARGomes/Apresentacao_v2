@@ -23,6 +23,10 @@
     font-weight: 500;
 }
 
+.titulo-sessao{
+    padding-top: 10px;
+}
+
 .home-apresentacao p{
     color: #fff;
     font-size: 20px;
@@ -61,11 +65,13 @@
     max-width: 700px;
     max-height: 300px;
     object-fit: cover;
+    padding-top: 5px;
 }
 
 .lista-sobre-estacionamento{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 5px;
 }
 
 .lista-sobre-estacionamento li {
